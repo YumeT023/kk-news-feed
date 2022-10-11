@@ -1,0 +1,16 @@
+.shape {
+  position: absolute;
+  height: 100%;
+}
+
+.credits-shape {
+  top: 0;
+  right: 0;
+  background-color: var(--cardbon-1);
+  border-end-start-radius: 60rem 100rem;
+  width: 100%;
+}
+.shape-shadow {
+  background-color: #343a40;
+  border-start-end-radius: 80rem;
+}

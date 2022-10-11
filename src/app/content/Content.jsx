@@ -1,13 +1,11 @@
 import React from 'react';
 import './content.css';
-import { Credit } from './components/credit/Credit';
+import { Credit } from './components/credit';
+import { Feeds } from './components/feeds';
 
 export const Content = () => (
   <div className='content'>
-    <div className='content-feeds'></div>
-
-    <div className='content-credits'>
-      <Credit />
-    </div>
+    <Feeds />
+    <Credit />
   </div>
 );

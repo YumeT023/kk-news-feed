@@ -1,0 +1,23 @@
+.content-credits {
+  background-color: var(--kk-2);
+}
+
+.credits {
+  height: 100%;
+  position: relative;
+}
+
+.credits-title {
+  text-align: center;
+  padding-bottom: 1.3rem;
+}
+
+.line-credit {
+  background-color: var(--kk-1);
+  margin-inline: 1.3rem;
+  border-bottom-left-radius: 2rem;
+  padding: 0.5rem;
+  padding-inline: 2rem;
+  margin-bottom: 1.2rem;
+  font-family: cursive, 'Helvetica Neue Light', 'Lucida Grande', 'Calibri', 'Arial', sans-serif;
+}
