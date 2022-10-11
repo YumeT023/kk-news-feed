@@ -87,8 +87,7 @@
 
 .feeds-item_content__img {
   border-radius: inherit;
-  padding: 0.4rem;
   width: 100%;
   background-color: var(--cardbon-2);
-  height: 100%;
+  max-height: 42rem;
 }

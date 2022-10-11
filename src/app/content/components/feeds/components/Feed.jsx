@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FeedHeader } from './FeedHeader';
 import { FeedContent } from './FeedContent';
 
-export const Feed = feed => {
+export const Feed = ({ data }) => {
   const {
     description,
     postingDate,
     imgURL,
     user: { name, avatarURL },
-  } = feed;
+  } = data;
 
   return (
     <div className='feeds-item'>
-      <FeedHeader avatar={avatarURL} postingDate={postingDate}>
+      <FeedHeader avatar={avatarURL ? avatarURL : null} postingDate={postingDate}>
         {name}
       </FeedHeader>
       <FeedContent imgURL={imgURL}>{description}</FeedContent>
