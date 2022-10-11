@@ -4,13 +4,15 @@
 </div>
 
 # NEWSFEED
+
 a simple newsfeed `react app` in which we are going to demonstrate the use of http request with **AXIOS**
 
 ## getting started
 
 fork this repository, and clone it via commandline
+
 ```shell
-    git clone <repository>
+    git clone https://github.com/YumeT023/kk-news-feed.git
 ```
 
 In the project directory, you can run:
@@ -78,8 +80,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 ## CSS
+
 <style>
     html {
          --template-row: auto auto;
