@@ -1,7 +1,7 @@
 import React from 'react';
 import './credit.css';
-import { CreditShape } from '../shapes';
-import { Line } from './Line';
+import { CreditShape } from '../../../../components/shapes';
+import { Line } from './components/Line';
 
 export const Credit = () => (
   <div className='content-credits'>
