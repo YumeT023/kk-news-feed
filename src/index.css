@@ -4,6 +4,7 @@
 
 html {
   --header-height: 4rem;
+  --rounded-circle: 50%;
 }
 
 body {

@@ -1,8 +1,11 @@
 import React from 'react';
 import './feeds.css';
+import { Feed } from './components';
 
 export const Feeds = () => (
-  <div className='content-feeds'>
-    <div className='content-feeds_container'></div>
+  <div className='feeds'>
+    <Feed />
+    <Feed />
+    <Feed />
   </div>
 );
