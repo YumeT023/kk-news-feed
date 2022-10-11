@@ -1,12 +1,11 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    --header-height: 4rem;
+  --header-height: 4rem;
 }
 
 body {
-    margin: calc(var(--header-height) + 1rem) 0 0 0;
-    height: calc(100vh - (var(--header-height) + 1rem));
+  /*margin: calc(var(--header-height) - 3rem) 0 0 0;*/
 }
