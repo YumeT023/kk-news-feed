@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './feeds.css';
 import { Feed } from './components';
 import { dataProvider } from '../../../../providers/data-provider';
-import axios from 'axios';
-import { environment } from '../../../../conf/environment';
-import { MOCK } from '../../../../providers/mock-provider';
 
 export const Feeds = () => {
   const [data, setData] = useState([]);

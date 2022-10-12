@@ -4,6 +4,7 @@ import { FeedContent } from './FeedContent';
 
 export const Feed = ({ data }) => {
   const {
+    id,
     description,
     postingDate,
     imgURL,
@@ -12,7 +13,7 @@ export const Feed = ({ data }) => {
 
   return (
     <div className='feeds-item'>
-      <FeedHeader avatar={avatarURL ? avatarURL : null} postingDate={postingDate}>
+      <FeedHeader avatar={avatarURL ? avatarURL : null} postingDate={postingDate} id={id}>
         {name}
       </FeedHeader>
       <FeedContent imgURL={imgURL}>{description}</FeedContent>
