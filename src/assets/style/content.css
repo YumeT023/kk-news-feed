@@ -1,0 +1,9 @@
+.content {
+  padding-top: var(--header-height);
+  height: calc(100% + 4rem);
+  color: #fff;
+  background-color: var(--cardbon-1);
+
+  display: grid;
+  grid-template-columns: 80% auto;
+}

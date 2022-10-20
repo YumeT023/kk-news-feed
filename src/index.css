@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --header-height: 4rem;
+  --rounded-circle: 50%;
+}
+
+body {
+  /*margin: calc(var(--header-height) - 3rem) 0 0 0;*/
+}
+
+/* global scrollbar */
+::-webkit-scrollbar {
+  width: 0.3rem;
+  margin-inline: 2em;
+  background-color: var(--cardbon-2);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background-color: var(--kk-1);
+}
