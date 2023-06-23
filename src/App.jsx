@@ -1,7 +1,6 @@
-import React from 'react';
+import { Content } from './components/content/Content';
+import { Header } from './components/header/Header';
 import './App.css';
-import { Content } from './app/content/Content';
-import { Header } from './app/header/Header';
 
 function App() {
   return (

@@ -1,6 +1,9 @@
-import React from 'react';
-import { CreditShape } from '../Shapes';
-import { Line } from './Line';
+export const CreditShape = ({ children, cls }) => <div className={`shape credits-shape ${cls}`}>{children}</div>;
+
+export const Line = ({ children, action }) => {
+  const content = `${children} [${action}]`;
+  return <div className='line-credit'>{content}</div>;
+};
 
 export const Credit = () => (
   <div className='credits'>
